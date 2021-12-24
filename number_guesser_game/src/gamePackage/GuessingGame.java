@@ -2,15 +2,17 @@ package gamePackage;
 
 import java.util.Scanner;
 
+/**
+ * Creates a number guessing game between 1-100, giving hints to the player.
+ * 
+ * @author jmalone2025
+ */
 public class GuessingGame {
 
 	public static void main(String[] args) {
-//		int computerNumber = (int) (Math.random() * 100 + 1);
-//		int userAnswer = 0;
 		int computerNumber; // NEW
 		int userAnswer; // NEW
 		int count = 1;
-//		String yesOrNo = " ";
 		int highestScore;
 		boolean gameOver = false;
 
@@ -56,5 +58,3 @@ public class GuessingGame {
 
 	}
 }
-
-//implement a play again feature. Record the lowest amount of turns played. 
